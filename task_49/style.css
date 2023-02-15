@@ -1,0 +1,27 @@
+*{
+	font-size: 1.2em;
+}
+p, h2{
+	margin: 35px;
+}
+
+
+.z h2:first-of-type {
+	color: rgb(221, 0, 0);
+}
+
+.z p:last-of-type {
+	color: rgb(0, 144, 221);
+}
+
+.x h2:nth-of-type(2) {
+	color: rgb(0, 5, 143);
+}
+
+.x p:nth-last-of-type(3) {
+	color: rgb(221, 0, 169);
+}
+
+.y h1{
+	text-decoration: underline;
+}
