@@ -1,0 +1,23 @@
+.block1{
+	color: rgb(28, 167, 28);
+}
+
+.block2 h2{
+	color: rgb(123, 28, 167);
+}
+
+#block p{
+	color: cadetblue;
+}
+
+.q{
+	color: chocolate;
+}
+
+#block .r{
+	color: cornflowerblue;
+}
+
+.fff h2.bbb{
+	color: fuchsia;
+} 
