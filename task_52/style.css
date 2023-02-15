@@ -1,0 +1,23 @@
+*{
+	margin: 10px;
+}
+
+div{
+	width: 400px;
+	height: 300px;
+}
+#x {
+	border: 5px solid blue;
+}
+
+#y{
+	border: 5px dotted red;
+}
+
+#z{
+	border: 5px dashed orange;
+}
+
+#w{
+	border: 5px double blue;
+}
