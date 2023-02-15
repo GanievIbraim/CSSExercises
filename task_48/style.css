@@ -1,0 +1,47 @@
+*{
+	font-size: 1.2em;
+}
+p{
+	margin: 35px;
+}
+li:first-child {
+	color: crimson;
+}
+p:last-child {
+	color: rgb(0, 221, 129);
+}
+
+li:last-child {
+	color: rgb(0, 221, 129);
+}
+p:first-child {
+	color: rgb(0, 221, 129);
+}
+
+li:nth-child(3){
+	color: blueviolet;
+}
+
+p:nth-child(odd){
+	color: chocolate;
+}
+p:nth-child(even){
+	color: cadetblue;
+}
+
+.a:nth-child(3n){
+	color: blueviolet;
+}
+
+span:nth-last-child(2){
+	color: darkblue;
+}
+
+p:only-child{
+	color: rgb(206, 144, 0);
+}
+
+p:empty{
+	height: 20px;
+	border: 1px solid rebeccapurple;
+}
