@@ -1,0 +1,23 @@
+.task_1:link {
+	color: rgb(0, 204, 255);
+}
+.task_1:visited {
+	color: rgb(0, 154, 90);
+}
+.task_1:hover {
+	color: crimson;
+	text-decoration: none;
+}
+.task_1:active {
+	color: rgb(0, 0, 0);
+}
+
+.task_2{
+	color: rgb(0, 204, 255);
+	text-decoration: none;
+}
+
+.task_2:hover{
+	color: crimson;
+	text-decoration: underline;
+}
