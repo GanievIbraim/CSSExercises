@@ -1,0 +1,18 @@
+*{
+	font-size: 1.2em;
+}
+p, h2{
+	margin: 35px;
+}
+
+.x li:not(.elem) {
+	color: rgb(0, 149, 255);
+}
+
+.z li:not(:first-child, :last-child) {
+	color: rgb(255, 0, 136);
+}
+
+.y li:not(:first-child) {
+	color: rgb(230, 0, 255);
+}
