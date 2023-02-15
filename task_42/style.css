@@ -1,0 +1,7 @@
+#elem_0 + li{
+	color: greenyellow;
+}
+
+.elem + li{
+	color: rgb(0, 109, 136);
+}
