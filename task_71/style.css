@@ -1,0 +1,30 @@
+*{
+	font-family: Consolas;
+    font-size: 1.1em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#console{
+    padding: 10px;
+    border: 10px solid black;
+	display: block;
+}
+#first{
+    margin-top: 5px;
+}
+
+p{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
