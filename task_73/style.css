@@ -1,0 +1,39 @@
+*{
+	font-family: Consolas;
+    font-size: 1.1em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#console{
+    padding: 10px;
+    border: 10px solid black;
+	display: block;
+}
+#first{
+    margin-top: 5px;
+}
+
+#parent{
+    border: 1px solid red;
+    padding: 0 50px;
+}
+
+#parent div{
+    border: 1px solid green;
+    height: 100px;
+    margin: 10px auto;
+}
+.elem1{
+    width: 100px;
+}
+
+.elem2{
+    width: 200px;
+}
+
+.elem3{
+    width: 300px;
+}
