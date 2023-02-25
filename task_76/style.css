@@ -1,0 +1,77 @@
+*{
+	font-family: Consolas;
+    font-size: 1em;
+}
+
+#console{
+    padding: 10px;
+    border: 10px solid black;
+}
+
+.parent {
+	display: flex;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.parent .child {
+	width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parent2 {
+	display: flex;
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.parent2 .child {
+	width: 120px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+.parent3 {
+	display: flex;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.parent3 .child {
+	width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parent4 {
+	display: flex;
+    border: 1px solid red;
+}
+.parent4 .child {
+	width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parent5 {
+	display: flex;
+    padding: 20px;
+    border: 1px solid red;
+}
+.parent5 .child {
+	width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parent6 {
+	display: flex;
+    border: 1px solid red;
+}
+.parent6 .child {
+	margin: 30px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
