@@ -1,0 +1,196 @@
+* {
+    font-family: Consolas;
+    font-size: 1em;
+}
+
+#console {
+    padding: 10px;
+    border: 10px solid black;
+}
+
+#elem1 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+    position: relative;
+    margin: 0 auto;
+}
+
+#elem1 div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid red;
+    top: 100px;
+    left: 100px;
+}
+
+#elem2 {
+    width: 400px;
+    height: 400px;
+    background-color: #4DEE99;
+    position: relative;
+    margin: 50px auto;
+}
+
+#elem2 div {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#elem2 div:first-child {
+    top: 50px;
+    left: 50px;
+}
+
+#elem2 div:last-child {
+    bottom: 50px;
+    right: 50px;
+}
+
+#elem3 {
+    position: relative;
+    width: 200px;
+    height: 430px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#elem3 .child1,
+#elem3 .child2,
+#elem3 .child3 {
+    border: 1px solid black;
+    position: absolute;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#elem3 .child1 {
+    background-color: red;
+    top: 50px;
+}
+
+#elem3 .child2 {
+    background-color: yellow;
+    top: 160px;
+
+}
+
+#elem3 .child3 {
+    background-color: green;
+    top: 270px;
+}
+
+#elem4 {
+    background-color: #4DEE99;
+    position: relative;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+}
+
+#elem4 .child1 {
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#elem4 .child2 {
+    background-color: #fff;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#elem4 .child3 {
+    background-color: #fff;
+    position: absolute;
+    left: 215px;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+}
+
+#elem4 .child4 {
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    width: 200px;
+    height: 20px;
+}
+
+#elem5 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #C4CD14;
+    border-radius: 200px;
+}
+
+#elem5 .child1 {
+    background-color: #fff;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+#elem5 .child2 {
+    background-color: #fff;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+#elem5 .child3 {
+    background-color: #fff;
+    position: absolute;
+    left: 165px;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border-radius: 35px;
+}
+
+#elem5 .child5 {
+    background-color: #C4CD14;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    z-index: 2;
+}
+#elem5 .child4 {
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 155px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 1;
+}
