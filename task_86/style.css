@@ -1,0 +1,99 @@
+* {
+    font-family: Consolas;
+    font-size: 1em;
+}
+
+.parent1 #elem1 {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	
+	width: 100px;
+	height: 100px;
+	background: #ff8888;
+}
+
+.parent1 #elem2 {
+    z-index: 3;
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	
+	width: 100px;
+	height: 100px;
+	background: #7e89eb;
+}
+
+.parent1 #elem3 {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	
+	width: 100px;
+	height: 100px;
+	background: #4dee99;
+}
+
+.parent2 #elem1 {
+    z-index: 3;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	
+	width: 100px;
+	height: 100px;
+	background: #ff8888;
+}
+
+.parent2 #elem2 {
+    z-index: 2;
+	position: absolute;
+	top: 390px;
+	left: 90px;
+	
+	width: 100px;
+	height: 100px;
+	background: #7e89eb;
+}
+
+.parent2 #elem3 {
+    z-index: 1;
+	position: absolute;
+	top: 450px;
+	left: 150px;
+	
+	width: 100px;
+	height: 100px;
+	background: #4dee99;
+}
+
+.parent3 #elem1 {
+	position: absolute;
+	top: 630px;
+	left: 30px;
+	
+	width: 100px;
+	height: 100px;
+	background: #ff8888;
+}
+
+.parent3 #elem2 {
+    z-index: -1;
+	position: absolute;
+	top: 690px;
+	left: 90px;
+	
+	width: 100px;
+	height: 100px;
+	background: #7e89eb;
+}
+
+.parent3 #elem3 {
+	position: absolute;
+	top: 750px;
+	left: 150px;
+	
+	width: 100px;
+	height: 100px;
+	background: #4dee99;
+}
