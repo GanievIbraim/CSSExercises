@@ -1,0 +1,14 @@
+* {
+    font-family: Consolas;
+    font-size: 1em;
+}
+.parent {
+	border: 1px solid red;
+}
+.parent img {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
