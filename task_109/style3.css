@@ -1,0 +1,31 @@
+* {
+    font-family: Consolas;
+	color: black;
+}
+
+body{
+	margin: 0 10px;
+}
+
+h1{
+	text-align: center;
+}
+#wrapper{
+	width: 700px;
+    margin: 0 auto;
+	margin-bottom: 20px;
+}
+#wrapper div{
+	margin-bottom: 20px;
+    border: 1px solid #707070;
+    padding: 20px;
+}
+
+#wrapper a{
+	color: blue;
+	text-decoration: none;
+}
+
+.more{
+	text-align: right;
+}
