@@ -1,0 +1,60 @@
+body {
+	font-family: arial;
+    margin: 0;
+}
+h2{
+	text-align: center;
+}
+.wrapper {
+    margin-bottom: 30px;
+}
+
+.wrapper li{
+	list-style-position: inside;
+}
+
+.wrapper li, .wrapper p{
+	margin-bottom: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+.wrapper.line1 {
+    background-color: #008040;
+    color: white;
+    text-align: center;
+}
+.wrapper.line2 {
+    background-color: #d80000;
+    color: white;
+    text-align: center;
+}
+.wrapper.line3 {
+    background-color: rgb(221, 189, 4);
+    color: white;
+    text-align: center;
+}
+.center {
+	width: 840px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.center1{
+text-align: justify;
+}
+
+.wrapper p{
+	margin-bottom: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+.line2, .line2 p{
+	text-align: center;
+}
+
+.line3 p{
+	text-align: center;
+}
+ol{
+	margin: 0;
+    padding: 0;
+}
