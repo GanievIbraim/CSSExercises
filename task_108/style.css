@@ -1,0 +1,72 @@
+* {
+    font-family: Consolas;
+    font-size: 1em;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(3, 203, 170);
+    background-color: rgb(3, 203, 170);
+}
+
+#menu a:hover,
+#menu a.active {
+    color: rgb(3, 203, 170);
+    border: 1px solid rgb(3, 203, 170);
+    background-color: #ffffff;
+}
+
+#menu2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu2 a {
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(3, 203, 170);
+    background-color: rgb(3, 203, 170);
+}
+
+#menu2 a:hover,
+#menu2 a.active {
+    color: rgb(3, 203, 170);
+    border: 1px solid rgb(3, 203, 170);
+    background-color: #ffffff;
+}
+
+#menu3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+#menu3 a {
+    width: 200px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(3, 203, 170);
+    background-color: rgb(3, 203, 170);
+}
+
+#menu3 a:hover,
+#menu3 a.active {
+    color: white;
+    border: 1px solid rgb(0, 100, 84);
+    background-color: rgb(0, 100, 84);
+}
